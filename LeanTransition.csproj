@@ -331,6 +331,21 @@
     <Reference Include="UnityEditor.Android.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.40f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="GitHub.Api.45">
+      <HintPath>Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.Logging">
+      <HintPath>Assets\Plugins\GitHub\Editor\GitHub.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.Unity.45">
+      <HintPath>Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.UnityShim">
+      <HintPath>Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll</HintPath>
+    </Reference>
+    <Reference Include="sfw.net">
+      <HintPath>Assets\Plugins\GitHub\Editor\sfw.net.dll</HintPath>
+    </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.14.18\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>

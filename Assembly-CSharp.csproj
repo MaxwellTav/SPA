@@ -56,11 +56,18 @@
     <Analyzer Include="A:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\CellCollisionComprobation.cs" />
+    <Compile Include="Assets\Scripts\GameEvents.cs" />
+    <Compile Include="Assets\Scripts\GridSquare.cs" />
     <Compile Include="Assets\Scripts\Miscellaneous\LoadScene.cs" />
     <Compile Include="Assets\Scripts\Miscellaneous\MainMenuScript.cs" />
     <Compile Include="Assets\Scripts\Miscellaneous\RandomColor.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObject\AlphabetData.cs" />
     <Compile Include="Assets\Scripts\ScriptableObject\BoardData.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObject\GameData.cs" />
     <Compile Include="Assets\Scripts\ScriptableObject\PlayerPrebfsKeys.cs" />
+    <Compile Include="Assets\Scripts\WordChecker.cs" />
+    <Compile Include="Assets\Scripts\WordsGrid.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

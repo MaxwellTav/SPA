@@ -56,6 +56,7 @@
     <Analyzer Include="A:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Editor\AlphabetDataDrawer.cs" />
     <Compile Include="Assets\Scripts\Editor\BoardDataDrawer.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -253,6 +254,21 @@
     </Reference>
     <Reference Include="UnityEditor.Android.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.40f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.Api.45">
+      <HintPath>Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.Logging">
+      <HintPath>Assets\Plugins\GitHub\Editor\GitHub.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.Unity.45">
+      <HintPath>Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.UnityShim">
+      <HintPath>Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll</HintPath>
+    </Reference>
+    <Reference Include="sfw.net">
+      <HintPath>Assets\Plugins\GitHub\Editor\sfw.net.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.14.18\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
@@ -721,6 +737,10 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{C388C4EC-4768-7365-0682-4E498028FEB6}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
+      <Project>{B4563941-9CC2-C71D-BEF1-EBC866E9A6AA}</Project>
+      <Name>Assembly-CSharp-Editor-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="LeanTransition.Editor.csproj">
       <Project>{68399BF3-A0C9-3F4B-5CA7-0DE55DF5CE20}</Project>

@@ -1,7 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "BoardData", menuName = "RMContamax/New BoardData")]
+[CreateAssetMenu(fileName = "BoardData", menuName = "RMContamax/New Board Data")]
 public class BoardData : ScriptableObject
 {
     [Serializable]
@@ -50,6 +51,7 @@ public class BoardData : ScriptableObject
 
     [Space(7)]
     public BoardRow[] Board;
+    public List<SearchingWord> SearchWords = new List<SearchingWord>();
 
     public void ClearWithEmptyString()
     {
