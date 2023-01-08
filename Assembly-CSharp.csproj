@@ -66,6 +66,8 @@
     <Compile Include="Assets\Scripts\ScriptableObject\BoardData.cs" />
     <Compile Include="Assets\Scripts\ScriptableObject\GameData.cs" />
     <Compile Include="Assets\Scripts\ScriptableObject\PlayerPrebfsKeys.cs" />
+    <Compile Include="Assets\Scripts\SearchingWord.cs" />
+    <Compile Include="Assets\Scripts\SearchingWordsList.cs" />
     <Compile Include="Assets\Scripts\WordChecker.cs" />
     <Compile Include="Assets\Scripts\WordsGrid.cs" />
   </ItemGroup>

@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1415acb283de5e4da0d71d0dfa7374e, type: 3}
+  m_Name: BoardDataDemo
+  m_EditorClassIdentifier: 
+  Grid: {x: 10, y: 10}
+  LeftTime: 0
+  Board:
+  - Size: 10
+    Row:
+    - A
+    - G
+    - A
+    - I
+    - P
+    - M
+    - K
+    - J
+    - Y
+    - X
+  - Size: 10
+    Row:
+    - K
+    - D
+    - F
+    - U
+    - A
+    - R
+    - A
+    - "\xD1"
+    - A
+    - D
+  - Size: 10
+    Row:
+    - T
+    - B
+    - I
+    - Q
+    - F
+    - P
+    - R
+    - X
+    - O
+    - A
+  - Size: 10
+    Row:
+    - I
+    - Q
+    - S
+    - Z
+    - D
+    - Q
+    - D
+    - K
+    - A
+    - L
+  - Size: 10
+    Row:
+    - A
+    - R
+    - R
+    - I
+    - B
+    - A
+    - B
+    - A
+    - J
+    - O
+  - Size: 10
+    Row:
+    - Y
+    - U
+    - A
+    - A
+    - N
+    - L
+    - W
+    - J
+    - A
+    - H
+  - Size: 10
+    Row:
+    - V
+    - G
+    - S
+    - R
+    - H
+    - V
+    - G
+    - A
+    - O
+    - X
+  - Size: 10
+    Row:
+    - O
+    - S
+    - K
+    - O
+    - G
+    - A
+    - E
+    - K
+    - K
+    - Q
+  - Size: 10
+    Row:
+    - G
+    - S
+    - H
+    - Y
+    - C
+    - U
+    - A
+    - R
+    - V
+    - O
+  - Size: 10
+    Row:
+    - O
+    - A
+    - R
+    - A
+    - H
+    - V
+    - I
+    - S
+    - S
+    - R
+  SearchWords:
+  - Word: ARRIBA
+  - Word: ABAJO
+  - Word: HOLA
+  - Word: DIAGO
+  - Word: INVERS
+  - Word: "ARA\xD1A"
