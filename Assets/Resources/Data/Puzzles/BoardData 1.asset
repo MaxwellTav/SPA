@@ -17,67 +17,67 @@ MonoBehaviour:
   Board:
   - Size: 7
     Row:
-    - F
+    - H
     - V
-    - W
     - L
-    - X
     - L
-    - A
+    - N
+    - M
+    - U
   - Size: 7
     Row:
-    - J
-    - K
-    - J
+    - W
+    - M
+    - A
     - E
     - L
-    - R
-    - O
+    - P
+    - F
   - Size: 7
     Row:
+    - H
     - L
-    - S
-    - P
+    - G
     - T
     - D
-    - B
-    - M
+    - A
+    - J
   - Size: 7
     Row:
-    - V
-    - E
-    - C
-    - R
+    - Q
     - X
-    - N
-    - F
+    - B
+    - R
+    - O
+    - S
+    - J
   - Size: 7
     Row:
     - S
     - O
     - P
     - A
-    - I
-    - D
-    - G
-  - Size: 7
-    Row:
-    - V
-    - L
     - B
-    - S
-    - M
-    - F
-    - W
+    - L
+    - X
   - Size: 7
     Row:
-    - E
-    - P
-    - Q
+    - I
+    - S
+    - T
+    - A
+    - B
+    - K
+    - N
+  - Size: 7
+    Row:
+    - U
+    - W
+    - O
+    - G
     - F
     - V
-    - S
-    - A
+    - O
   SearchWords:
   - Word: SOPA
   - Word: DE
